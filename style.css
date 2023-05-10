@@ -1,0 +1,51 @@
+#red {
+  color: red;
+  font-weight: lighter;
+}
+
+#standout {
+  font-weight: bold;
+  font-style: italic;
+}
+
+p {
+  color: grey;
+}
+
+.black {
+  color: black;
+}
+
+.infoBox {
+  background-color: aliceblue;
+  width: 50%;
+  float: right;
+  position: relative;
+  top: 50px;
+  margin-top: 20px;
+  border: dotted 0.5px grey;
+  border-radius: 5px;
+}
+
+#intro {
+  width: 50%;
+  float: left;
+}
+
+#questions {
+  clear: both;
+  border-top: solid 1px #cccccc;
+}
+
+div {
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.underlined {
+  text-decoration: underline;
+}

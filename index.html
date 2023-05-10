@@ -4,21 +4,31 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" >
     <title>Landing page</title>
   </head>
   <body>
-    <p>Welcome to the landing page &#8482</p>
-    <p>Please Register your visit using this application.</p>
+    <div id="intro">
+        <img
+        src="https://www.averyhealthcare.co.uk/wp-content/uploads/2016/03/gold-star-sxc.jpg"
+        height="100"
+        width="100"
+      />
+      <h2 class="title" id="red"><span id="standout">Welcome to </span>the landing page &#8482</h2>
+      <p class="black">Please Register your visit using this application.</p>
+    </div>
 
-    <p>please read the following:</p>
-    <a href="http://www.hse.gov.uk/workers/index.htm" target="_blank"
-      >Health and safety in the workplace</a
-    >
+    <div>
+      <p>please read the following:</p>
+      <a href="http://www.hse.gov.uk/workers/index.htm" target="_blank"
+        >Health and safety in the workplace</a
+      >
+      <a href="#conduct">Code of Conduct</a>
+    </div>
 
-    <a href="#conduct">Code of Conduct</a>
-
+    <div class="infoBox">
     <p>
-      <strong>Important:</strong> Please have your licence plate and parking bay
+      <strong class="underlined">Important:</strong> Please have your licence plate and parking bay
       number ready.
     </p>
 
@@ -31,13 +41,9 @@
       <li>Parking bay number</li>
       <li>Name of person you are visiting</li>
     </ul>
+    </div>
 
-    <!-- <img
-      src="https://www.averyhealthcare.co.uk/wp-content/uploads/2016/03/gold-star-sxc.jpg"
-      height="100"
-      width="100"
-    /> -->
-
+    <div id="questions">
     <input type="checkbox" />Do you have a vehicle?
     <input type="text" />
 
@@ -71,6 +77,7 @@
     </table>
 
     <input type="submit" value="confirm" />
+  </div>
 
     <p id="conduct">Code of Conduct</p>
     <p>
