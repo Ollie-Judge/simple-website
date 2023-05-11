@@ -13,6 +13,7 @@
         src="https://www.averyhealthcare.co.uk/wp-content/uploads/2016/03/gold-star-sxc.jpg"
         height="100"
         width="100"
+        id="logo"
       />
       <h2 class="title" id="red"><span id="standout">Welcome to </span>the landing page &#8482</h2>
       <p class="black">Please Register your visit using this application.</p>
@@ -44,52 +45,62 @@
     </div>
 
     <div id="questions">
-    <input type="checkbox" />Do you have a vehicle?
-    <input type="text" />
+      <div>
+        <p>Please enter your name</p>
 
-    <p>What type of vehicle is it?</p>
-    <input type="radio" name="size" /> Saloon
-    <input type="radio" name="size" /> SUV
-    <input type="radio" name="size" /> hatcback
+        <input id="input-name" type="text">
+      </div>
+      
+      <div>
+        <input type="checkbox" />Do you have a vehicle?
+        <input id="input-license" type="text" />
+      </div>
 
-    <p>What parking bay are you in?</p>
-    <select>
-      <option>1</option>
-      <option>2</option>
-      <option>3</option>
-    </select>
+      <div>
+        <p>What type of vehicle is it?</p>
 
-    <p>Wo are you visiting?</p>
+        <input type="radio" name="size" /> Saloon
+        <input type="radio" name="size" /> SUV
+        <input type="radio" name="size" /> hatcback
+      </div>
 
-    <table>
-      <tr>
-        <th width="200">Name</th>
-        <th width="300">Role</th>
-      </tr>
-      <tr>
-        <th>Rob</th>
-        <th>Director</th>
-      </tr>
-      <tr>
-        <th>Darren</th>
-        <th>Underling</th>
-      </tr>
-    </table>
+      <div>
+        <p>What parking bay are you in?</p>
+        <select>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+        </select>
+      </div>
 
-    <input type="submit" value="confirm" />
+      <div>
+        <p>Who are you visiting?</p>
+
+        <table>
+          <tr>
+            <th width="200">Name</th>
+            <th width="300">Role</th>
+          </tr>
+          <tr>
+            <th>Rob</th>
+            <th>Director</th>
+          </tr>
+          <tr>
+            <th>Darren</th>
+            <th>Underling</th>
+          </tr>
+        </table>
+      </div>
+
+    <input id="submitButton" type="submit" value="confirm" />
+
+    <div id="validation-box">
+      <p id="validation-message">
+        Please ensure all information is entered correctly.
+      </p>
+    </div>
   </div>
 
-    <p id="conduct">Code of Conduct</p>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-      est laborum.
-    </p>
-
-    <iframe src="https://www.youtube.com/watch?v=hY7m5jjJ9mM&pp=ygUPZnVubnkgdmlkZW8gY2F0" width="600" height="500" frameborder="0" allowfullscreen ></iframe>
+  <script src="script.js"></script>
   </body>
 </html>
